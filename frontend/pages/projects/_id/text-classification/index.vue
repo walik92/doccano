@@ -31,7 +31,9 @@
           />
         </v-card-title>
         <v-divider />
-        <v-card-text class="title highlight" style="white-space: pre-wrap" v-text="example.text" />
+        <div class="v-card__text title highlight" style="white-space: pre-wrap">
+          {{example.text}}
+        </div>
       </v-card>
     </template>
     <template #sidebar>
